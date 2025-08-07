@@ -15,6 +15,18 @@ li {
 
 /*
 
+LANDING PAGE
+
+*/
+
+
+#landing-page {
+    min-height: 100vh;
+}
+
+
+/*
+
 NAVIGATION
 
 */
@@ -49,4 +61,8 @@ nav {
     font-size: 16px;
     color: #242424;
     font-weight: 700;
+}
+
+.fa-solid {
+    font-size: 20px;
 }
