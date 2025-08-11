@@ -1,293 +1,301 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jim Stein</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5020861bfe.js"
+      crossorigin="anonymous"></script>
+      <script src="index.js"></script>
+    <script src="app.js" defer>
+    <script type="text/javascript">
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "kT_Ps3pkv36G7JdY2",
+      });
+   })();
+</script>
+    </script>
+  </head>
+  <body>
+    <nav>
+      <figure>
+        <img id="personal-logo" src="./assets/logo.svg" alt="Logo" />
+      </figure>
+      <ul class="nav__link--list">
+        <li class="nav__link">
+          <a
+            href="#"
+            class="nav__link--anchor link__hover-effect link__hover-effect--black"
+            >About</a
+          >
+        </li>
+        <li class="nav__link">
+          <a
+            href="#"
+            class="nav__link--anchor link__hover-effect link__hover-effect--black"
+            >Projects</a
+          >
+        </li>
+        <li class="nav__link">
+          <a
+            href="#"
+            class="nav__link--anchor link__hover-effect link__hover-effect--black"
+            >Contact</a
+          >
+        </li>
+        <li class="nav__link click">
+          <a
+            href="#"
+            class="nav__link--anchor link__hover-effect link__hover-effect--black"
+          >
+            <i class="fa-solid fa-sun"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section id="landing-page"></section>
+    <header class="header">
+      <div class="header_content">
+        <h1 class="title">Hey</h1>
+        <h1 class="title blue">I'm Jim!</h1>
+        <p class="header__para">
+          I'm a <b class="blue">Frontend Software Engineer</b> focused on
+          delivering web applications that combine cutting-edge technology with
+          user-centered design to create measurable business impact.
+          <br />
+          Here's a bit more <b class="blue">about me</b>
+        </p>
+        <div class="social__list">
+          <a
+            href="https://linkedin.com/in/jim-stein-376740363"
+            target="_blank"
+            class="social__link click"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/jim9stein"
+            target="_blank"
+            class="social__link click"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="./assets/David Bragg Resume.pdf"
+            target="_blank"
+            class="social__link click"
+          >
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <button class="mail__btn click">
+      <i class="fa-solid fa-envelope"></i>
+    </button>
+    <a href="#projects" class="scroll">
+      <div class="scroll__icon click"></div>
+    </a>
+    <div class="modal">
+      <div class="modal__half modal__about">
+        <h3 class="modal__title">Here's a bit about me...</h3>
+        <h4 class="modal__sub-title modal__sub-title--about">
+          Frontend Software Engineer
+        </h4>
+        <p class="modal__para">
+          I'm an American
+          <b class="red">Frontend Software Engineer</b> beginning my journey
+          into <b class="red">user-centric website development.</b> My
+          enthusiasm lies in building intuitive, accessible, and visually
+          compelling digital experiences that delight users.
+          <br />
+          As a <b class="red">passionate newcomer</b> to software engineering,
+          I’ve had the incredible opportunity to be mentored by a team of
+          <b class="red">highly skilled senior developers.</b> Their expertise
+          accelerated my growth. I bring that same
+          <b class="red">commitment to excellence</b> to every project I work
+          on.
+        </p>
 
-<head>
+        <div class="modal__languages">
+          <figure class="modal__language">
+            <img
+              class="modal__language--img"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Html-1.svg"
+              alt="HTML"
+            />
 
-  <meta charset="UTF-8" />
+            <span class="language__name">HTML</span>
+          </figure>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <figure class="modal__language">
+            <img
+              class="modal__language--img"
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg"
+              alt="CSS"
+            />
 
-  <title>Jim Stein</title>
+            <span class="language__name">CSS</span>
+          </figure>
 
-  <link rel="stylesheet" href="style.css" />
+          <figure class="modal__language">
+            <img
+              class="modal__language--img"
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png"
+              alt="JavaScript"
+            />
 
-  <script src="https://kit.fontawesome.com/5020861bfe.js" crossorigin="anonymous"></script>
+            <span class="language__name">JavaScript</span>
+          </figure>
 
-  <script src="app.js" defer></script>
+          <figure class="modal__language">
+            <img
+              class="modal__language--img"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+              alt="React"
+            />
 
-</head>
-
-<body>
-
-  <nav>
-
-    <figure>
-
-      <img id="personal-logo" src="./assets/logo.svg" alt="Logo" />
-
-    </figure>
-
-    <ul class="nav__link--list">
-
-      <li class="nav__link">
-
-        <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">About</a>
-
-      </li>
-
-      <li class="nav__link">
-
-        <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
-
-      </li>
-
-      <li class="nav__link">
-
-        <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
-
-      </li>
-
-      <li class="nav__link click">
-
-        <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">
-
-          <i class="fa-solid fa-sun"></i>
-
-        </a>
-
-      </li>
-
-    </ul>
-
-  </nav>
-
-  <section id="landing-page"></section>
-
-  <header class="header">
-
-    <div class="header_content">
-
-      <h1 class="title">Hey</h1>
-
-      <h1 class="title blue">I'm Jim!</h1>
-
-      <p class="header__para">
-
-        I'm a <b class="blue">Frontend Software Engineer</b> focused on delivering web applications that combine cutting-edge technology with user-centered design to create measurable business impact.
-
-        <br />
-
-        Here's a bit more <b class="blue">about me</b>
-
-      </p>
-
-      <div class="social__list">
-
-        <a href="https://linkedin.com/in/jim-stein-376740363" target="_blank" class="social__link click">
-
-          <i class="fa-brands fa-linkedin"></i>
-
-        </a>
-
-        <a href="https://github.com/jim9stein" target="_blank" class="social__link click">
-
-          <i class="fa-brands fa-github"></i>
-
-        </a>
-
-        <a href="./assets/David Bragg Resume.pdf" target="_blank" class="social__link click">
-
-          <i class="fa-solid fa-file-pdf"></i>
-
-        </a>
-
+            <span class="language__name">React</span>
+          </figure>
+        </div>
       </div>
 
-    </div>
-
-  </header>
-
-  <button class="mail__btn click">
-
-    <i class="fa-solid fa-envelope"></i>
-
-  </button>
-
-  <!-- Fixed href -->
-
-  <a href="#projects" class="scroll">
-
-    <div class="scroll__icon click"></div>
-
-  </a>
-
-  <!-- Modal Section Fixed -->
-
-  <div class="modal">
-
-    <div class="modal__half modal__about">
-
-      <h3 class="modal__title">Here's a bit about me...</h3>
-
-      <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer</h4>
-
-      <p class="modal__para">
-
-        I'm an American <b class="red">Frontend Software Engineer</b> beginning my journey into <b class="red">user-centric website development.</b> My enthusiasm lies in building intuitive, accessible, and visually compelling digital experiences that delight users.
-
-        <br />
-
-        As a <b class="red">passionate newcomer</b> to software engineering, I’ve had the incredible opportunity to be mentored by a team of <b class="red">highly skilled senior developers.</b> Their expertise accelerated my growth. I bring that same <b class="red">commitment to excellence</b> to every project I work on.
-
-      </p>
-
-      <div class="modal__languages">
-
-        <figure class="modal__language">
-
-          <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Html-1.svg" alt="HTML" />
-
-          <span class="language__name">HTML</span>
-
-        </figure>
-
-        <figure class="modal__language">
-
-          <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" alt="CSS" />
-
-          <span class="language__name">CSS</span>
-
-        </figure>
-
-        <figure class="modal__language">
-
-          <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" alt="JavaScript" />
-
-          <span class="language__name">JavaScript</span>
-
-        </figure>
-
-        <figure class="modal__language">
-
-          <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" />
-
-          <span class="language__name">React</span>
-
-        </figure>
-
-      </div>
-
-    </div>
-
-    <div class="modal__half modal__contact">
-
-      <h3 class="modal__title">Let's have a chat!</h3>
-
-      <!-- Optional: Add a contact form or email link -->
-
-    </div>
-
-  </div>
-
-  <!-- Projects Section -->
-
-  <section id="projects">
-
-    <div class="container">
-
-      <div class="row">
-
-        <h1 class="section__title">Here are some of my <span class="blue">projects</span></h1>
-
-        <ul class="project__list">
-
-          <!-- Repeatable Project Item -->
-
-          <li class="project">
-
-            <div class="project__wrapper">
-
-              <img src="./assets/blinker mockup.png" class="project__img" alt="Project image" />
-
-              <div class="project__wrapper--bg"></div>
-
-              <div class="project__description">
-
-                <h3 class="project__description--title">Car Sale Projects</h3>
-
-                <h4 class="project__description--sub-title">HTML, CSS, JavaScript</h4>
-
-                <p class="project__description--para">
-
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae iste possimus similique qui pariatur ratione nostrum eos eligendi perferendis unde exercitationem, ipsam incidunt quam voluptates illo voluptate veritatis. Libero iure minus earum quod ipsam dolorum.
-
-                </p>
-
-                <div class="project__description--links">
-
-                  <a href="#" class="project__description--link"><i class="fa-brands fa-github"></i></a>
-
-                  <a href="#" class="project__description--link"><i class="fa-brands fa-linkedin"></i></a>
-
-                </div>
-
-              </div>
-
+      <div class="modal__half modal__contact">
+        <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
+        <h3 class="modal__sub-title modal__sub-title--contact">
+            Currently looking for new opportunities
+        </h3>
+        <form id="contact__form" onsubmit="contact(event)">
+            <div class="form__item">
+            <label class="form__item--label">Name</label>  
+            <input class="input" name="user__name" type="text" required></input> 
             </div>
-
-          </li>
-
-          <!-- Copy/Paste this block for more projects -->
-
-          <!-- ... -->
-
-        </ul>
-
+            <div class="form__item">
+            <label class="form__item--label">Email</label>  
+            <input class="input" name="user__email" type="email" required></input> 
+            </div>
+            <div class="form__item">
+            <label class="form__item--label">Message</label>  
+            <textarea class="input" name="message" type="text" required></textarea> 
+            </div>
+            <button id="contact__submit" class="form__submit">
+                Send it my way
+            </button>
+        </form>
+        <div class="modal__overlay modal__overlay--loading">
+           <i class="fas fa-spinner"></i> 
+        </div>
+        <div class="modal__overlay modal__overlay--success">
+            Thanks for the message! Looking forward to speaking with you soon.
+        </div>
+        <!-- Optional: Add a contact form or email link -->
       </div>
-
+      <i class="fas fa-times modal__exit click"></i>
     </div>
 
-  </section>
+    <!-- Projects Section -->
 
-  <!-- Footer -->
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="blue">projects</span>
+          </h1>
 
-  <footer>
+          <ul class="project__list">
+            <!-- Repeatable Project Item -->
 
-    <div class="container">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blinker mockup.png"
+                  class="project__img"
+                  alt="Project image"
+                />
 
-      <div class="row footer__row">
+                <div class="project__wrapper--bg"></div>
 
-        <figure>
+                <div class="project__description">
+                  <h3 class="project__description--title">Car Sale Projects</h3>
 
-          <img class="footer__logo--img" src="./assets/logo.svg" alt="Logo" />
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
 
-        </figure>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Beatae iste possimus similique qui pariatur ratione nostrum
+                    eos eligendi perferendis unde exercitationem, ipsam incidunt
+                    quam voluptates illo voluptate veritatis. Libero iure minus
+                    earum quod ipsam dolorum.
+                  </p>
 
-        <div class="footer__social--list">
+                  <div class="project__description--links">
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
 
-          <a href="#" class="footer__social--link link__hover-effect link__hover-effect--white">Github</a>
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
 
-          <a href="#" class="footer__social--link link__hover-effect link__hover-effect--white">LinkedIn</a>
+            <!-- Copy/Paste this block for more projects -->
 
-          <a href="#" class="footer__social--link link__hover-effect link__hover-effect--white">Contact</a>
-
-          <a href="#" class="footer__social--link link__hover-effect link__hover-effect--white">Resume</a>
-
+            <!-- ... -->
+          </ul>
         </div>
-
-        <div class="footer__copyright">
-
-          Copyright © 2025 James Stein
-
-        </div>
-
       </div>
+    </section>
 
-    </div>
+    <!-- Footer -->
 
-  </footer>
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+          <figure>
+            <img class="footer__logo--img" src="./assets/logo.svg" alt="Logo" />
+          </figure>
 
-</body>
+          <div class="footer__social--list">
+            <a
+              href="#"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >Github</a
+            >
 
+            <a
+              href="#"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >LinkedIn</a
+            >
+
+            <a
+              href="#"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >Contact</a
+            >
+
+            <a
+              href="#"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >Resume</a
+            >
+          </div>
+
+          <div class="footer__copyright">Copyright © 2025 James Stein</div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
