@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/5020861bfe.js"
-      crossorigin="anonymous"></script>
-      <script src="index.js"></script>
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
     <script src="app.js" defer>
+      <script type="text/javascript"></script>
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        
     <script type="text/javascript">
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "kT_Ps3pkv36G7JdY2",
+      (function () {
+        emailjs.init({
+          publicKey: "kT_Ps3pkv36G7JdY2",
       });
-   })();
-</script>
+      })();
     </script>
   </head>
   <body>
@@ -141,7 +141,6 @@
               src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg"
               alt="CSS"
             />
-
             <span class="language__name">CSS</span>
           </figure>
 
@@ -151,7 +150,6 @@
               src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png"
               alt="JavaScript"
             />
-
             <span class="language__name">JavaScript</span>
           </figure>
 
@@ -161,46 +159,47 @@
               src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
               alt="React"
             />
-
             <span class="language__name">React</span>
           </figure>
         </div>
       </div>
-
       <div class="modal__half modal__contact">
         <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
         <h3 class="modal__sub-title modal__sub-title--contact">
-            Currently looking for new opportunities
+          Currently looking for new opportunities
         </h3>
         <form id="contact__form" onsubmit="contact(event)">
-            <div class="form__item">
-            <label class="form__item--label">Name</label>  
-            <input class="input" name="user__name" type="text" required></input> 
-            </div>
-            <div class="form__item">
-            <label class="form__item--label">Email</label>  
-            <input class="input" name="user__email" type="email" required></input> 
-            </div>
-            <div class="form__item">
-            <label class="form__item--label">Message</label>  
-            <textarea class="input" name="message" type="text" required></textarea> 
-            </div>
-            <button id="contact__submit" class="form__submit">
-                Send it my way
-            </button>
+          <div class="form__item">
+            <label class="form__item--label">Name</label>
+            <input class="input" name="user__name" type="text" required />
+          </div>
+          <div class="form__item">
+            <label class="form__item--label">Email</label>
+            <input class="input" name="user__email" type="email" required />
+          </div>
+          <div class="form__item">
+            <label class="form__item--label">Message</label>
+            <textarea
+              class="input"
+              name="message"
+              type="text"
+              required
+            ></textarea>
+          </div>
+          <button id="contact__submit" class="form__submit">
+            Send it my way
+          </button>
         </form>
         <div class="modal__overlay modal__overlay--loading">
-           <i class="fas fa-spinner"></i> 
+          <i class="fas fa-spinner"></i>
         </div>
         <div class="modal__overlay modal__overlay--success">
-            Thanks for the message! Looking forward to speaking with you soon.
+          Thanks for the message! Looking forward to speaking with you soon.
         </div>
         <!-- Optional: Add a contact form or email link -->
       </div>
       <i class="fas fa-times modal__exit click"></i>
     </div>
-
-    <!-- Projects Section -->
 
     <section id="projects">
       <div class="container">
@@ -249,16 +248,10 @@
                 </div>
               </div>
             </li>
-
-            <!-- Copy/Paste this block for more projects -->
-
-            <!-- ... -->
           </ul>
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
 
     <footer>
       <div class="container">
@@ -273,26 +266,22 @@
               class="footer__social--link link__hover-effect link__hover-effect--white"
               >Github</a
             >
-
             <a
               href="#"
               class="footer__social--link link__hover-effect link__hover-effect--white"
               >LinkedIn</a
             >
-
             <a
               href="#"
               class="footer__social--link link__hover-effect link__hover-effect--white"
               >Contact</a
             >
-
             <a
               href="#"
               class="footer__social--link link__hover-effect link__hover-effect--white"
               >Resume</a
             >
           </div>
-
           <div class="footer__copyright">Copyright © 2025 James Stein</div>
         </div>
       </div>

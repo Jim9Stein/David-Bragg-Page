@@ -27,7 +27,8 @@ section {
   background-color: rgb(245, 245, 245);
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   background-color: blue;
   color: white;
@@ -51,11 +52,13 @@ label {
   font-weight: bold;
 }
 
-input:hover, textarea:hover {
+input:hover,
+textarea:hover {
   border-color: white;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-color: red;
 }
 
@@ -288,7 +291,6 @@ MODAL
 
 .modal__about {
   background-color: rgb(245, 245, 245);
-  
 }
 
 .modal__languages {
@@ -311,8 +313,8 @@ MODAL
 }
 
 .modal__language:hover {
-    filter: brightness(80%);
-    transform: scale(0.9);
+  filter: brightness(80%);
+  transform: scale(0.9);
 }
 
 .language__name {
@@ -386,7 +388,6 @@ MODAL
 .modal__overlay--loading {
   background-color: black;
   font-size: 80px;
-  
 }
 
 .modal__overlay--success {
@@ -423,7 +424,6 @@ MODAL
   font-size: 36px;
   z-index: 100;
 }
-
 
 /*
 
