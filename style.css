@@ -516,6 +516,10 @@ PROJECTS
   margin-bottom: 60px;
 }
 
+.project {
+  margin-bottom: 100px;
+}
+
 .project__img {
   width: 100%;
   transition: all 600ms ease;
