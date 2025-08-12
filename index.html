@@ -10,16 +10,17 @@
       src="https://kit.fontawesome.com/5020861bfe.js"
       crossorigin="anonymous"
     ></script>
-    <script src="index.js"></script>
-    <script src="app.js" defer>
-      <script type="text/javascript"></script>
-          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-        
+    <script src="index.js" defer></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
     <script type="text/javascript">
       (function () {
         emailjs.init({
           publicKey: "kT_Ps3pkv36G7JdY2",
-      });
+        });
       })();
     </script>
   </head>
@@ -43,14 +44,14 @@
             >Projects</a
           >
         </li>
-        <li class="nav__link">
+        <li class="nav__link" onclick="toggleModal()">
           <a
             href="#"
             class="nav__link--anchor link__hover-effect link__hover-effect--black"
             >Contact</a
           >
         </li>
-        <li class="nav__link click">
+        <li class="nav__link click" onclick="toggleContrast()">
           <a
             href="#"
             class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -70,7 +71,7 @@
           delivering web applications that combine cutting-edge technology with
           user-centered design to create measurable business impact.
           <br />
-          Here's a bit more <b class="blue">about me</b>
+          Here's a bit more <b class="blue click" onclick="toggleModal()">about me</b>
         </p>
         <div class="social__list">
           <a
@@ -97,7 +98,7 @@
         </div>
       </div>
     </header>
-    <button class="mail__btn click">
+    <button class="mail__btn click" onclick="toggleModal()">
       <i class="fa-solid fa-envelope"></i>
     </button>
     <a href="#projects" class="scroll">
@@ -164,6 +165,7 @@
         </div>
       </div>
       <div class="modal__half modal__contact">
+        <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
         <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
         <h3 class="modal__sub-title modal__sub-title--contact">
           Currently looking for new opportunities
@@ -198,7 +200,7 @@
         </div>
         <!-- Optional: Add a contact form or email link -->
       </div>
-      <i class="fas fa-times modal__exit click"></i>
+      
     </div>
 
     <section id="projects">
@@ -218,16 +220,13 @@
                   class="project__img"
                   alt="Project image"
                 />
-
                 <div class="project__wrapper--bg"></div>
-
                 <div class="project__description">
                   <h3 class="project__description--title">Car Sale Projects</h3>
 
                   <h4 class="project__description--sub-title">
                     HTML, CSS, JavaScript
                   </h4>
-
                   <p class="project__description--para">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Beatae iste possimus similique qui pariatur ratione nostrum
@@ -235,12 +234,74 @@
                     quam voluptates illo voluptate veritatis. Libero iure minus
                     earum quod ipsam dolorum.
                   </p>
-
                   <div class="project__description--links">
                     <a href="#" class="project__description--link"
                       ><i class="fa-brands fa-github"></i
                     ></a>
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blinker mockup.png"
+                  class="project__img"
+                  alt="Project image"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Car Sale Projects</h3>
 
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Beatae iste possimus similique qui pariatur ratione nostrum
+                    eos eligendi perferendis unde exercitationem, ipsam incidunt
+                    quam voluptates illo voluptate veritatis. Libero iure minus
+                    earum quod ipsam dolorum.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blinker mockup.png"
+                  class="project__img"
+                  alt="Project image"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Car Sale Projects</h3>
+
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Beatae iste possimus similique qui pariatur ratione nostrum
+                    eos eligendi perferendis unde exercitationem, ipsam incidunt
+                    quam voluptates illo voluptate veritatis. Libero iure minus
+                    earum quod ipsam dolorum.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
                     <a href="#" class="project__description--link"
                       ><i class="fa-brands fa-linkedin"></i
                     ></a>
